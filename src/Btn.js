@@ -1,11 +1,15 @@
 import React from 'react'
+import "./Btn.css"
 
-function Btn() {
+function Btn(props) {
+  
   return (
     <div>
-      <button>Click</button>
+      {/* <button className='newbutton'>{props.btnName}</button> */}
+
+      <button style={{backgroundColor: props.color}}>{props.btnName}</button>
     </div>
-  )
+  );
 }
 
 export default Btn
