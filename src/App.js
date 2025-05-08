@@ -1,18 +1,14 @@
 import './App.css';
-import Btn from './Btn';
+import LocalState from './LocalState';
+import Properties from './Properties';
 
 function App() {
   return (
     <div className="App">
-      <Btn btnName="Music" color="red" />
-      <Btn btnName="Cars" color="blue" />
-      <Btn btnName="bikes" color="pink" />
-      <Btn btnName="Movies" />
-      <Btn btnName="Books" />
-      <Btn btnName="Drama" />
-      <Btn btnName="Songs" />
-      <Btn btnName="Photo" />
-      <Btn btnName="Table" />
+
+        {/* <LocalState /> */}
+
+        <Properties />
     </div>
   );
 }
